@@ -1,0 +1,6 @@
+Welcome to the Geth JavaScript console!
+
+instance: Geth/v1.8.20-stable-24d727b6/windows-amd64/go1.11.2
+ modules: admin:1.0 debug:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 personal:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+> > > > node

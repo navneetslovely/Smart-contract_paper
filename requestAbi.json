@@ -1,0 +1,222 @@
+[
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "",
+				"type": "bytes32"
+			}
+		],
+		"name": "activityTable",
+		"outputs": [
+			{
+				"name": "contractName",
+				"type": "string"
+			},
+			{
+				"name": "emrRequester",
+				"type": "address"
+			},
+			{
+				"name": "emrOwner",
+				"type": "address"
+			},
+			{
+				"name": "deployerOfcontrt",
+				"type": "address"
+			},
+			{
+				"name": "contractAddress",
+				"type": "address"
+			},
+			{
+				"name": "abi",
+				"type": "bytes"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_methodName",
+				"type": "string"
+			},
+			{
+				"name": "_contractAddress",
+				"type": "address"
+			}
+		],
+		"name": "changeContractAddress",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_methodName",
+				"type": "string"
+			}
+		],
+		"name": "fetchContractAddress",
+		"outputs": [
+			{
+				"name": "_contractAddress",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_methodName",
+				"type": "string"
+			},
+			{
+				"name": "_contractName",
+				"type": "string"
+			},
+			{
+				"name": "_emrRequester",
+				"type": "address"
+			},
+			{
+				"name": "_emrOwner",
+				"type": "address"
+			},
+			{
+				"name": "_deployerOfcontrt",
+				"type": "address"
+			},
+			{
+				"name": "_contractAddress",
+				"type": "address"
+			},
+			{
+				"name": "_abi",
+				"type": "bytes"
+			}
+		],
+		"name": "methodRegister",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_methodName",
+				"type": "string"
+			},
+			{
+				"name": "_contractName",
+				"type": "string"
+			}
+		],
+		"name": "changeMethodContractName",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_lastName",
+				"type": "string"
+			},
+			{
+				"name": "_newName",
+				"type": "string"
+			}
+		],
+		"name": "changeMethodName",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_methodName",
+				"type": "string"
+			}
+		],
+		"name": "fetchContractAbi",
+		"outputs": [
+			{
+				"name": "_abi",
+				"type": "bytes"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "_origin",
+				"type": "string"
+			}
+		],
+		"name": "stringToBytes32",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bytes32"
+			}
+		],
+		"payable": false,
+		"stateMutability": "pure",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_methodName",
+				"type": "string"
+			},
+			{
+				"name": "_abi",
+				"type": "bytes"
+			}
+		],
+		"name": "changeMethodAbi",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_name",
+				"type": "string"
+			}
+		],
+		"name": "removeMethod",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
